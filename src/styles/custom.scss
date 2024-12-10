@@ -1,0 +1,85 @@
+
+$primary: #285E67;
+$secondary: rgba(206, 206, 206, 0.87);
+$danger: #FCE2D7;
+$bg-primary: #285E67;
+$centrado: text-align center;
+
+$position-values: (
+  0: 0,
+  50: 100%,
+  100: 473%
+);
+
+body{
+    font-family: "Poppins", sans-serif;
+    
+}
+.articulos{
+    display: flex;
+    i{
+        border: 2px solid ; 
+        background-color: none;
+        font-size: 20px;
+        margin: 0 20px 10px 0 ;
+        padding: 30px;
+        border-radius: 50%;
+    }
+    p{
+        color: $primary;
+    }
+};
+.redondo{
+    
+    i{
+        border: 2px solid ; 
+        
+        font-size: 20px;
+        margin: 0 20px 10px 0 ;
+        padding: 30px;
+        border-radius: 50%;
+    }
+    
+};
+footer {
+    background-color: $bg-primary;
+    color: $secondary;
+    text-align: center;
+    padding: 20px;
+    
+    
+    a{
+        color: $secondary;
+        margin: 5px;
+        text-decoration: none;
+    } 
+    ul{
+        list-style: none;
+        
+        
+    }   
+}
+@media(max-width: 757px){
+    #invitacion{
+        margin-bottom: 460px;
+    }
+}
+@media(max-width: 990px){
+    main{
+        margin-bottom: 350px;
+    }
+}
+
+
+    
+
+
+
+#invitacion{
+    background-image:  url(fondo1.jpg);
+    padding: 0 100px 15px 100px ;
+    height: 500px;
+    
+    
+}
+
